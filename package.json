@@ -1,0 +1,24 @@
+{
+  "name": "grid-bootstrap",
+  "version": "1.0.0",
+  "description": "This repository is created to test the knowledge acquired in Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyes-art-car/grid-bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/reyes-art-car/grid-bootstrap/issues"
+  },
+  "homepage": "https://github.com/reyes-art-car/grid-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
