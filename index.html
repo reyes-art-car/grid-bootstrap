@@ -11,15 +11,16 @@
 	<title>Grid de Bootstrap 5</title>
 </head>
 
-<body>
+<body class="bg-light">
 	<!--llamada de navbar-->
 	<div id="navbar"></div>
 
-	<div class="container-fluid">
-		<main class="container-fluid bg-white">
-			<div class="row align-items-start">
-				<div class="col-12 col-lg-8">
-					<h1>MAIN</h1>
+	<main class="container-fluid bg-light">
+		<div class="container-fluid ">
+			<div class="row align-items-start ">
+				<!--div main-->
+				<div class="col-12 col-lg-8 bg-white">
+					<h1 class="fw-bold">MAIN</h1>
 					<p>8 columnas</p>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis illo ipsa assumenda in animi
 						nesciunt eos dolorum omnis, rerum reprehenderit distinctio culpa illum? Exercitationem unde fuga
@@ -29,33 +30,33 @@
 						saepe ratione, iure nesciunt cumque nulla sint maxime eius mollitia in nostrum ipsam enim neque
 						soluta.</p>
 				</div>
-				<div class="col-12 col-lg-4 bg-light text-primary p-3 text-left align-self-center">
-					<h1>ASIDE</h1>
+				<!--div aside-->
+				<div class="col-12 col-lg-4 bg-secondary bg-opacity-50 text-primary py-3 align-self-center">
+					<h1 class="fw-bold">ASIDE</h1>
 					<p>4 columnas</p>
 				</div>
-
 			</div>
 
-
-			<div class="row justify-content-between">
-				<div class="col-3 bg-primary text-white">
-					<p>3 columnas</p>
+			<!--div columnas-->
+			<div class="row justify-content-between mt-4">
+				<div class="col-md-3 bg-primary text-white">
+					<p class="fw-bold">3 columnas</p>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, facere. Cumque delectus
 						repudiandae
 						laborum neque omnis, cupiditate rerum maxime, magnam necessitatibus dolor incidunt ad vel
 						dolorum
 						vero ipsa perferendis temporibus!</p>
 				</div>
-				<div class="col-3 bg-primary text-white ">
-					<p>3 columnas</p>
+				<div class="col-md-3 bg-primary text-white">
+					<p class="fw-bold">3 columnas</p>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, facere. Cumque delectus
 						repudiandae
 						laborum neque omnis, cupiditate rerum maxime, magnam necessitatibus dolor incidunt ad vel
 						dolorum
 						vero ipsa perferendis temporibus!</p>
 				</div>
-				<div class="col-3 bg-primary text-white">
-					<p>3 columnas</p>
+				<div class="col-md-3 bg-primary text-white">
+					<p class="fw-bold">3 columnas</p>
 					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, facere. Cumque delectus
 						repudiandae
 						laborum neque omnis, cupiditate rerum maxime, magnam necessitatibus dolor incidunt ad vel
@@ -63,14 +64,13 @@
 						vero ipsa perferendis temporibus!</p>
 				</div>
 			</div>
-	</div>
-
+		</div>
 	</main>
-
 
 	<!--llamada de footer-->
 	<div id="footer"></div>
 	<!--llamadas de scripts-->
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/ourJS/main.js"></script>
