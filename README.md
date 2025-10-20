@@ -1,63 +1,55 @@
-# Proyecto Responsive con Bootstrap 5.3
+# Cuaderno de Prácticas - Bootstrap 5
 
-Este proyecto es una **maqueta base responsiva** desarrollada con [Bootstrap 5.3](https://getbootstrap.com/) para demostrar la estructura de grid, distribución flexible de contenidos y componentes reutilizables como *navbar* y *footer*.
+Este repositorio ha sido creado como un **cuaderno de trabajo** para documentar y practicar los conocimientos adquiridos sobre **Bootstrap** durante el curso.
 
----
-
-## Características principales
-
-- Sistema de **grid responsivo** basado en Bootstrap 5.3  
-- Distribución clara entre `Main` (8 columnas) y `Aside` (4 columnas)  
-- Sección inferior con tres columnas iguales  
-- Diseño *mobile-first* adaptable a todos los tamaños de pantalla  
-- Navbar y Footer cargados dinámicamente  
-- Estructura lista para personalizar y escalar
+Cada archivo o carpeta dentro del repositorio representa una **actividad práctica o mini-proyecto** realizado en clase, enfocado en diferentes componentes, utilidades y características del framework.
 
 ---
 
-## Tecnologías utilizadas
+## Objetivo
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+El propósito de este repositorio es desarrollar habilidades en el uso de Bootstrap sin depender de código CSS personalizado, aprovechando al máximo sus **clases utilitarias**, **componentes predefinidos** y **sistema de rejilla** (Grid System).
 
 ---
 
-## Estructura del proyecto
-![Estructura Bootstrap](bootstrap-estructura.png)
+## Contenido
+
+A lo largo del repositorio se podrán encontrar ejemplos y ejercicios sobre temas como:
+
+- Sistema de rejilla (Grid System)
+- Tipografía y espaciado
+- Botones y grupos de botones
+- Formularios y elementos interactivos
+- Imágenes y figuras (`.img-fluid`, `.rounded`, `.shadow`, etc.)
+- Tablas y tarjetas (`.card`)
+- Navegación y menús (`.navbar`, `.nav`)
+- Carruseles (`.carousel`)
+- Modales, alertas y otros componentes dinámicos
+- Utilidades de diseño (`.d-flex`, `.text-center`, `.bg-*`, etc.)
+ 
 
 ---
 
-## Responsive Design
+## Requisitos
 
-Todo el diseño es responsive en todas las pantallas disponibles.
-
----
-
-## Instalación y ejecución
-
-Clona este repositorio y ejecuta el archivo `index.html` directamente en tu navegador:
-
-
-# Clonar el repositorio
-
-git clone https://github.com/reyes-art-car/grid-bootstrap.git
-
-## Personalización
-
-- **Estilos** → `css/estilos.css`  
-- **Lógica de carga dinámica** → `js/ourJS/main.js`  
-- **Estructura base** → `index.html`
-
-Para la personalización del estilo **es necesario descargarse en local las librerías de Bootstrap 5.3**
+- **Bootstrap 3 o superior**, preferiblemente cargado mediante CDN.  
+- Navegador compatible con HTML5, CSS3 y JavaScript moderno.  
 
 ---
 
-## Licencia
+## Cómo usarlo
 
-Este proyecto está bajo la licencia **MIT**.  
-Eres libre de usarlo, modificarlo y distribuirlo para fines personales o comerciales.
+1. Clona o descarga el repositorio.  
+2. Abre los archivos `.html` directamente en tu navegador.  
+3. Analiza y modifica el código para experimentar con las diferentes clases y componentes de Bootstrap.  
+
+---
+
+## Propósito educativo
+
+Este proyecto sirve como una herramienta de aprendizaje para reforzar el uso de **Bootstrap** en la creación de sitios web **modernos, responsivos y bien estructurados**, sin necesidad de escribir CSS adicional.
+
+Cada actividad está pensada para centrarse en un conjunto específico de utilidades o componentes, permitiendo avanzar gradualmente en el dominio del framework.
 
 ---
 
